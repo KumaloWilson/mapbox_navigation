@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eopeter.fluttermapboxnavigation">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:theme="@style/AppTheme"> <!-- Apply the AppTheme here -->
+
+        <!-- NavigationActivity with the correct theme -->
+        <activity
+            android:name="com.eopeter.fluttermapboxnavigation.activity.NavigationActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"> <!-- Apply the NoActionBar theme here -->
+            <!-- Optional: Add intent filters or other configurations if needed -->
+        </activity>
+
+    </application>
+</manifest>
+
